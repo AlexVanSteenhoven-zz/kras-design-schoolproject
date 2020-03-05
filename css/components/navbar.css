@@ -1,3 +1,13 @@
 .nav-bar {
     background-color: #455a64;
+    height: 50px;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-left: 15px;
 }
