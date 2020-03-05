@@ -1,0 +1,16 @@
+/*CSSGRID NIEUWS*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 7.15% repeat(2, 1.5fr) 2fr 1.6fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 2 / 4 / 3; }
+.div3 { grid-area: 2 / 4 / 3 / 5; }
+.div4 { grid-area: 3 / 4 / 4 / 5; }
+.div5 { grid-area: 4 / 2 / 5 / 3; }
+.div6 { grid-area: 4 / 4 / 5 / 5; }
+.div7 { grid-area: 5 / 1 / 6 / 6; }
