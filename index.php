@@ -10,12 +10,12 @@
     </head>
     <body>
         <!--    Import navigation bar    -->
-        <?php require_once ('partials/navbar.html') ?>
+        <?php require_once('partials/navbar.html') ?>
 
         <!--    Body goes here    -->
 
 
         <!--    Import footer    -->
-        <?php require_once ('partials/footer.html') ?>
+        <?php require_once('partials/footer.html') ?>
     </body>
 </html>
