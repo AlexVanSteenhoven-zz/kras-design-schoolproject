@@ -11,3 +11,22 @@
 .div2 { grid-area: 2 / 2 / 3 / 5; }
 .div3 { grid-area: 4 / 2 / 7 / 5; }
 .div4 { grid-area: 8 / 2 / 9 / 5; }
+
+/*
+ * Main hosting plans (flexbox)
+ * top_container = first flexbox (3 items)
+ * bottom_container = last flexbox = (4 items)
+ */
+
+.top_container, .bottom_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  align-content: start
+}
+.item {
+  flex: 1 0 auto;
+  margin: 15px;
+}
