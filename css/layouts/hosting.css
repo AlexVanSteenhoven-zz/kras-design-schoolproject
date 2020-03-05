@@ -1,1 +1,13 @@
 /*CSSGRID HOSTING*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 7.15% repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 2 / 3 / 5; }
+.div3 { grid-area: 4 / 2 / 7 / 5; }
+.div4 { grid-area: 8 / 2 / 9 / 5; }
