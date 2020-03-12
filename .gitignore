@@ -1,5 +1,5 @@
-./config.php
-config.php
+include/*
+include/
 .idea/
 .vscode/*
 .vscode/settings.json
