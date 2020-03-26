@@ -1,14 +1,30 @@
 /*CSSGRID OVER ONS*/
-.parent {
+.container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 7.15% repeat(2, 1.05fr) .8fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  height: 92vh;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 2 / 2 / 4 / 3; }
-.div3 { grid-area: 2 / 4 / 3 / 5; }
-.div4 { grid-area: 3 / 4 / 4 / 5; }
-.div5 { grid-area: 4 / 1 / 5 / 6; }
+.title { grid-area: 1 / 2 / 2 / 5; }
+.body { grid-area: 3 / 2 / 6 / 5; }
+
+img {
+  margin-top: 200px;
+  width: 600px;
+  height: 400px;
+  float: right;
+}
+
+.body {
+  width: 525px;
+  position: absolute;
+  top: 450px;
+  left: 250px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
