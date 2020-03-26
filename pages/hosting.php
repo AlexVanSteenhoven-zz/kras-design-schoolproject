@@ -18,9 +18,9 @@
         <div class="domain-lookup">
             <h1>Website hosting</h1>
             <div class="lookup">
-                <label for="check">Check hier je domein!</label>
+                <label class="lbl" for="check">Check hier je domein!</label>
                 <input type="text" id="check" placeholder="example: www.google.com">
-                <input type="button" value="Controlleer" id="check-btn">
+                <input type="button" class="btn" value="Controlleer" id="check-btn">
             </div>
         </div>
 

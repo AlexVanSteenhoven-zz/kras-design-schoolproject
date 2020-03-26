@@ -1,0 +1,38 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: #455a64;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+
+.footer-btn {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 100px;
+    float: right;
+}
+
+.footer-input {
+    height: 50px;
+    width: 250px;
+    margin-right: 10px;
+    margin-top: 15px;
+
+    padding: 10px;
+}
+
+span {
+    margin-top: 25px;
+    margin-left: 100px;
+    width: 600px;
+}
+
+label {
+    padding-right: 20px;
+}
