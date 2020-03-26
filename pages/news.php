@@ -14,7 +14,65 @@
 <?php require_once('../partials/navbar.html') ?>
 
 <!--    Body goes here    -->
+<div class="container">
+    <div class="posts">
+        <div class="post post-1">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
+        <div class="post post-2">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
+        <div class="post post-3">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
+        <div class="post post-4">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
+        <div class="post post-5">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
+        <div class="post post-6">
+            <h4>title</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias amet corporis cumque incidunt,
+                laborum magni nam natus officiis optio pariatur quis quo similique sunt voluptatum.
+                Nesciunt quibusdam quisquam tempora.
+            </p>
+        </div>
 
+    </div>
+</div>
 
 <!--    Import footer    -->
 <?php require_once('../partials/footer.html') ?>
