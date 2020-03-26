@@ -25,14 +25,14 @@ function ping(url) {
 //URL om te testen
 const inputURL = document.getElementById('check');
 const buttonCheck = document.getElementById('check-btn');
-const url = inputURL.value;
+const url = inputURL;
 
 buttonCheck.addEventListener('click', () => {
-    ping(url).then(function(e) {
+    ping(url.value).then(function(e) {
         if (e === 'true') {
-            alert(url + ' bestaat al. Zoek een andere');
+            alert(url.value + ' bestaat al. Zoek een andere');
         } else {
-            const result = confirm(url + ' is beschikbaar. Wilt u deze kopen?');
+            const result = confirm(url.value + ' is beschikbaar. Wilt u deze kopen?');
 
             if (result) {
                 window.location.assign('../../pages/success.html');
@@ -41,6 +41,6 @@ buttonCheck.addEventListener('click', () => {
             }
         }
     }).catch(function(err) {
-        console.log(url + ' bestaat niet');
+        console.log(url.value + ' bestaat niet');
     });
 });

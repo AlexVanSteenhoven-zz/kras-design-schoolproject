@@ -1,32 +1,131 @@
 /*CSSGRID HOSTING*/
-.parent {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 7.15% repeat(7, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.div1 { grid-area: 1 / 1 / 2 / 6; }
-.div2 { grid-area: 2 / 2 / 3 / 5; }
-.div3 { grid-area: 4 / 2 / 7 / 5; }
-.div4 { grid-area: 8 / 2 / 9 / 5; }
-
 /*
  * Main hosting plans (flexbox)
  * top_container = first flexbox (3 items)
  * bottom_container = last flexbox = (4 items)
  */
 
-.top_container, .bottom_container {
+.container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-content: space-around;
   align-items: stretch;
-  align-content: start
 }
+
 .item {
-  flex: 1 0 auto;
-  margin: 15px;
+  max-width: 25%;
+  padding: 20px;
+  margin: 50px 20px 0 20px;
+  height: 60vh;
+  border: 1px solid #707070;
+  border-radius: 25px;
+}
+
+.additional {
+  color: lightslategrey;
+  font-size: 12px;
+  font-style: italic;
+  display: block;
+}
+
+.plan1 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.plan2 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.plan3 {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.domain-lookup {
+  text-align: center;
+  justify-content: center;
+
+}
+
+.lookup {
+  padding-top: 50px;
+  width: 100%;
+  height: 150px;
+/*padding-left: 40%;*/
+}
+
+label {
+  display: block;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+input[type=text] {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #707070;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+input[type=button] {
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  border: 1px solid #707070;
+}
+
+input[type=button]:hover {
+  background-color: springgreen;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+h2, h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.flex-content {
+  margin-bottom: auto;
+  padding: 20px;
+}
+
+.choose-btn {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  bottom: 1px;
+  padding-bottom: -20px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #455a64;
+}
+
+.choose-btn:hover {
+  background-color: springgreen;
+  color: black;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.list {
+  padding-left: 19px;
+  margin-bottom: auto;
+}
+
+.smaller {
+  padding-top: 25px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
