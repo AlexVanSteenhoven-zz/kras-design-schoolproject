@@ -15,8 +15,11 @@
 
         <!--    Body goes here    -->
 
-
+        <label for="check"></label>
+        <input type="text" id="check" placeholder="example: www.google.com">
+        <input type="button" value="Controlleer" id="check-btn">
         <!--    Import footer    -->
+        <script src="../assets/js/components/domainCheck.js"></script>
         <?php require_once('../partials/footer.html') ?>
     </body>
 </html>
