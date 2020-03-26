@@ -16,7 +16,7 @@ function ping(url) {
                     reject(false);
                 }
             }
-        }
+        };
         request.open("GET", 'https://www.dennisvanriet.nl/ping/ping_ws.php?url=' + url + '&t=' + Math.random(), true);
         request.send();
     });
