@@ -1,21 +1,48 @@
-/*CSSGRID CONTACT*/
-.parent {
+.container {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: 7.15% 1.5fr repeat(5, 1fr) 5fr 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  height: 80vh;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 8; }
-.div2 { grid-area: 1 / 2 / 2 / 7; }
-.div3 { grid-area: 2 / 2 / 3 / 7; }
-.div4 { grid-area: 3 / 6 / 8 / 7; }
-.div5 { grid-area: 3 / 6 / 4 / 7; }
-.div6 { grid-area: 4 / 6 / 5 / 7; }
-.div7 { grid-area: 5 / 6 / 6 / 7; }
-.div8 { grid-area: 6 / 6 / 7 / 7; }
-.div9 { grid-area: 7 / 6 / 8 / 7; }
-.div10 { grid-area: 7 / 2 / 8 / 5; }
-.div11 { grid-area: 8 / 2 / 9 / 5; }
-.div12 { grid-area: 4 / 2 / 6 / 5; }
+.name { grid-area: 2 / 3 / 3 / 4; }
+.email { grid-area: 3 / 3 / 4 / 4; }
+.tel { grid-area: 4 / 3 / 5 / 4; }
+.text { grid-area: 5 / 3 / 6 / 4; }
+.submit { grid-area: 6 / 3 / 7 / 4; }
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border-radius: 25px;
+  padding: 15px;
+  border: 1px solid #707070;
+}
+
+textarea {
+  padding: 15px;
+  width: 500px;
+  border: 1px solid #707070;
+  border-radius: 25px;
+}
+
+button {
+  border-radius: 25px;
+  border: 1px solid #707070;
+  width: 150px;
+  height: 50px;
+  align-self: center;
+}
+
+button:hover {
+  background-color: springgreen;
+  border: 2px solid black;
+  cursor: pointer;
+}
